@@ -1,0 +1,25 @@
+.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top{
+    margin-top:20px; 
+}
+
+tr td.edit{
+    display: none;
+}
+
+tr.editing td.view{
+    display: none;
+}
+
+tr.editing td.edit{
+    display: block;
+}
+
+.force-parent-lh {
+  line-height: inherit !important;
+}
