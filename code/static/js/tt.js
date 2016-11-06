@@ -3,5 +3,11 @@ var app = new Vue({
     //delimiters: ['${', '}'],
     data: {
         testText: ''
+    },
+    
+    methods: {
+        refresh: function(){
+            this.$http.get('/data').then((response)=>{this.testText = response.body.name;});
+        }
     }
 })
