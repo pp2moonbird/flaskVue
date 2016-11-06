@@ -1,6 +1,6 @@
 var app = new Vue({
     el: '#ttapp',
-    delimiters: ['${', '}'],
+    //delimiters: ['${', '}'],
     data: {
         testText: ''
     }

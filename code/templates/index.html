@@ -18,8 +18,10 @@
         <h1>Flask and Vue</h1>
 
         <div id="ttapp">
-        <input type="text" class="form-control" v-model="testText">
-        <h3>${testText}</h3>
+        {% raw %}
+            <input type="text" class="form-control" v-model="testText">
+            <h3>{{testText}}</h3>
+        {% endraw %}
         </div>
 
     </div>
